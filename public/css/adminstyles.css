@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b6d47c;
+}
+
+.background-container {
+    position: relative;
+}
+
+.background-image-fondo {
+    width: 200px;
+    height: 4152px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+map area {
+    position: relative;
+    z-index: 2;
+}
